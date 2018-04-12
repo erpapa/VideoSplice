@@ -1,6 +1,6 @@
 //
-//  videoConvertUITests.m
-//  videoConvertUITests
+//  VideoSpliceUITests.m
+//  VideoSpliceUITests
 //
 //  Created by erpapa on 16/8/14.
 //  Copyright © 2016年 erpapa. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface videoConvertUITests : XCTestCase
+@interface VideoSpliceUITests : XCTestCase
 
 @end
 
-@implementation videoConvertUITests
+@implementation VideoSpliceUITests
 
 - (void)setUp {
     [super setUp];

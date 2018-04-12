@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA4380851DC4E10900F6CA4E /* VideoSpliceController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4380841DC4E10900F6CA4E /* VideoSpliceController.m */; };
+		EA4380921DC5089900F6CA4E /* VideoDecodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4380911DC5089900F6CA4E /* VideoDecodeController.m */; };
 		EA6CC6F51D606751002D9F43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6CC6F41D606751002D9F43 /* AppDelegate.m */; };
 		EA6CC6F81D606751002D9F43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6CC6F71D606751002D9F43 /* main.m */; };
 		EA6CC6FB1D606751002D9F43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6CC6FA1D606751002D9F43 /* ViewController.m */; };
 		EA6CC6FD1D606751002D9F43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA6CC6FC1D606751002D9F43 /* Assets.xcassets */; };
 		EA6CC7001D606751002D9F43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA6CC6FE1D606751002D9F43 /* Main.storyboard */; };
-		EA6CC70B1D606751002D9F43 /* videoConvertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6CC70A1D606751002D9F43 /* videoConvertTests.m */; };
-		EA6CC7161D606751002D9F43 /* videoConvertUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6CC7151D606751002D9F43 /* videoConvertUITests.m */; };
+		EA6CC70B1D606751002D9F43 /* VideoSpliceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6CC70A1D606751002D9F43 /* VideoSpliceTests.m */; };
+		EA6CC7161D606751002D9F43 /* VideoSpliceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6CC7151D606751002D9F43 /* VideoSpliceUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EA6CC6F01D606751002D9F43 /* videoConvert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = videoConvert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4380831DC4E10900F6CA4E /* VideoSpliceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoSpliceController.h; sourceTree = "<group>"; };
+		EA4380841DC4E10900F6CA4E /* VideoSpliceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoSpliceController.m; sourceTree = "<group>"; };
+		EA4380901DC5089900F6CA4E /* VideoDecodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoDecodeController.h; sourceTree = "<group>"; };
+		EA4380911DC5089900F6CA4E /* VideoDecodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoDecodeController.m; sourceTree = "<group>"; };
+		EA6CC6F01D606751002D9F43 /* VideoSplice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoSplice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6CC6F31D606751002D9F43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA6CC6F41D606751002D9F43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EA6CC6F71D606751002D9F43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,11 +49,11 @@
 		EA6CC6FC1D606751002D9F43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA6CC6FF1D606751002D9F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA6CC7011D606751002D9F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA6CC7061D606751002D9F43 /* videoConvertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = videoConvertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA6CC70A1D606751002D9F43 /* videoConvertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = videoConvertTests.m; sourceTree = "<group>"; };
+		EA6CC7061D606751002D9F43 /* VideoSpliceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoSpliceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6CC70A1D606751002D9F43 /* VideoSpliceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoSpliceTests.m; sourceTree = "<group>"; };
 		EA6CC70C1D606751002D9F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA6CC7111D606751002D9F43 /* videoConvertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = videoConvertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA6CC7151D606751002D9F43 /* videoConvertUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = videoConvertUITests.m; sourceTree = "<group>"; };
+		EA6CC7111D606751002D9F43 /* VideoSpliceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoSpliceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6CC7151D606751002D9F43 /* VideoSpliceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoSpliceUITests.m; sourceTree = "<group>"; };
 		EA6CC7171D606751002D9F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,12 +82,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA4380861DC4E11300F6CA4E /* convert */ = {
+			isa = PBXGroup;
+			children = (
+				EA4380831DC4E10900F6CA4E /* VideoSpliceController.h */,
+				EA4380841DC4E10900F6CA4E /* VideoSpliceController.m */,
+			);
+			name = convert;
+			sourceTree = "<group>";
+		};
+		EA43808D1DC504B800F6CA4E /* decode */ = {
+			isa = PBXGroup;
+			children = (
+				EA4380901DC5089900F6CA4E /* VideoDecodeController.h */,
+				EA4380911DC5089900F6CA4E /* VideoDecodeController.m */,
+			);
+			name = decode;
+			sourceTree = "<group>";
+		};
 		EA6CC6E71D606751002D9F43 = {
 			isa = PBXGroup;
 			children = (
-				EA6CC6F21D606751002D9F43 /* videoConvert */,
-				EA6CC7091D606751002D9F43 /* videoConvertTests */,
-				EA6CC7141D606751002D9F43 /* videoConvertUITests */,
+				EA6CC6F21D606751002D9F43 /* VideoSplice */,
+				EA6CC7091D606751002D9F43 /* VideoSpliceTests */,
+				EA6CC7141D606751002D9F43 /* VideoSpliceUITests */,
 				EA6CC6F11D606751002D9F43 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,18 +113,18 @@
 		EA6CC6F11D606751002D9F43 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA6CC6F01D606751002D9F43 /* videoConvert.app */,
-				EA6CC7061D606751002D9F43 /* videoConvertTests.xctest */,
-				EA6CC7111D606751002D9F43 /* videoConvertUITests.xctest */,
+				EA6CC6F01D606751002D9F43 /* VideoSplice.app */,
+				EA6CC7061D606751002D9F43 /* VideoSpliceTests.xctest */,
+				EA6CC7111D606751002D9F43 /* VideoSpliceUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EA6CC6F21D606751002D9F43 /* videoConvert */ = {
+		EA6CC6F21D606751002D9F43 /* VideoSplice */ = {
 			isa = PBXGroup;
 			children = (
-				EA6CC6F31D606751002D9F43 /* AppDelegate.h */,
-				EA6CC6F41D606751002D9F43 /* AppDelegate.m */,
+				EA43808D1DC504B800F6CA4E /* decode */,
+				EA4380861DC4E11300F6CA4E /* convert */,
 				EA6CC6F91D606751002D9F43 /* ViewController.h */,
 				EA6CC6FA1D606751002D9F43 /* ViewController.m */,
 				EA6CC6FC1D606751002D9F43 /* Assets.xcassets */,
@@ -108,41 +132,43 @@
 				EA6CC7011D606751002D9F43 /* Info.plist */,
 				EA6CC6F61D606751002D9F43 /* Supporting Files */,
 			);
-			path = videoConvert;
+			path = VideoSplice;
 			sourceTree = "<group>";
 		};
 		EA6CC6F61D606751002D9F43 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EA6CC6F31D606751002D9F43 /* AppDelegate.h */,
+				EA6CC6F41D606751002D9F43 /* AppDelegate.m */,
 				EA6CC6F71D606751002D9F43 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EA6CC7091D606751002D9F43 /* videoConvertTests */ = {
+		EA6CC7091D606751002D9F43 /* VideoSpliceTests */ = {
 			isa = PBXGroup;
 			children = (
-				EA6CC70A1D606751002D9F43 /* videoConvertTests.m */,
+				EA6CC70A1D606751002D9F43 /* VideoSpliceTests.m */,
 				EA6CC70C1D606751002D9F43 /* Info.plist */,
 			);
-			path = videoConvertTests;
+			path = VideoSpliceTests;
 			sourceTree = "<group>";
 		};
-		EA6CC7141D606751002D9F43 /* videoConvertUITests */ = {
+		EA6CC7141D606751002D9F43 /* VideoSpliceUITests */ = {
 			isa = PBXGroup;
 			children = (
-				EA6CC7151D606751002D9F43 /* videoConvertUITests.m */,
+				EA6CC7151D606751002D9F43 /* VideoSpliceUITests.m */,
 				EA6CC7171D606751002D9F43 /* Info.plist */,
 			);
-			path = videoConvertUITests;
+			path = VideoSpliceUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EA6CC6EF1D606751002D9F43 /* videoConvert */ = {
+		EA6CC6EF1D606751002D9F43 /* VideoSplice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA6CC71A1D606751002D9F43 /* Build configuration list for PBXNativeTarget "videoConvert" */;
+			buildConfigurationList = EA6CC71A1D606751002D9F43 /* Build configuration list for PBXNativeTarget "VideoSplice" */;
 			buildPhases = (
 				EA6CC6EC1D606751002D9F43 /* Sources */,
 				EA6CC6ED1D606751002D9F43 /* Frameworks */,
@@ -152,14 +178,14 @@
 			);
 			dependencies = (
 			);
-			name = videoConvert;
+			name = VideoSplice;
 			productName = videoConvert;
-			productReference = EA6CC6F01D606751002D9F43 /* videoConvert.app */;
+			productReference = EA6CC6F01D606751002D9F43 /* VideoSplice.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EA6CC7051D606751002D9F43 /* videoConvertTests */ = {
+		EA6CC7051D606751002D9F43 /* VideoSpliceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA6CC71D1D606751002D9F43 /* Build configuration list for PBXNativeTarget "videoConvertTests" */;
+			buildConfigurationList = EA6CC71D1D606751002D9F43 /* Build configuration list for PBXNativeTarget "VideoSpliceTests" */;
 			buildPhases = (
 				EA6CC7021D606751002D9F43 /* Sources */,
 				EA6CC7031D606751002D9F43 /* Frameworks */,
@@ -170,14 +196,14 @@
 			dependencies = (
 				EA6CC7081D606751002D9F43 /* PBXTargetDependency */,
 			);
-			name = videoConvertTests;
+			name = VideoSpliceTests;
 			productName = videoConvertTests;
-			productReference = EA6CC7061D606751002D9F43 /* videoConvertTests.xctest */;
+			productReference = EA6CC7061D606751002D9F43 /* VideoSpliceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EA6CC7101D606751002D9F43 /* videoConvertUITests */ = {
+		EA6CC7101D606751002D9F43 /* VideoSpliceUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA6CC7201D606751002D9F43 /* Build configuration list for PBXNativeTarget "videoConvertUITests" */;
+			buildConfigurationList = EA6CC7201D606751002D9F43 /* Build configuration list for PBXNativeTarget "VideoSpliceUITests" */;
 			buildPhases = (
 				EA6CC70D1D606751002D9F43 /* Sources */,
 				EA6CC70E1D606751002D9F43 /* Frameworks */,
@@ -188,9 +214,9 @@
 			dependencies = (
 				EA6CC7131D606751002D9F43 /* PBXTargetDependency */,
 			);
-			name = videoConvertUITests;
+			name = VideoSpliceUITests;
 			productName = videoConvertUITests;
-			productReference = EA6CC7111D606751002D9F43 /* videoConvertUITests.xctest */;
+			productReference = EA6CC7111D606751002D9F43 /* VideoSpliceUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +241,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EA6CC6EB1D606751002D9F43 /* Build configuration list for PBXProject "videoConvert" */;
+			buildConfigurationList = EA6CC6EB1D606751002D9F43 /* Build configuration list for PBXProject "VideoSplice" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -228,9 +254,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EA6CC6EF1D606751002D9F43 /* videoConvert */,
-				EA6CC7051D606751002D9F43 /* videoConvertTests */,
-				EA6CC7101D606751002D9F43 /* videoConvertUITests */,
+				EA6CC6EF1D606751002D9F43 /* VideoSplice */,
+				EA6CC7051D606751002D9F43 /* VideoSpliceTests */,
+				EA6CC7101D606751002D9F43 /* VideoSpliceUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -266,8 +292,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA4380921DC5089900F6CA4E /* VideoDecodeController.m in Sources */,
 				EA6CC6FB1D606751002D9F43 /* ViewController.m in Sources */,
 				EA6CC6F81D606751002D9F43 /* main.m in Sources */,
+				EA4380851DC4E10900F6CA4E /* VideoSpliceController.m in Sources */,
 				EA6CC6F51D606751002D9F43 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA6CC70B1D606751002D9F43 /* videoConvertTests.m in Sources */,
+				EA6CC70B1D606751002D9F43 /* VideoSpliceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA6CC7161D606751002D9F43 /* videoConvertUITests.m in Sources */,
+				EA6CC7161D606751002D9F43 /* VideoSpliceUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,12 +321,12 @@
 /* Begin PBXTargetDependency section */
 		EA6CC7081D606751002D9F43 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EA6CC6EF1D606751002D9F43 /* videoConvert */;
+			target = EA6CC6EF1D606751002D9F43 /* VideoSplice */;
 			targetProxy = EA6CC7071D606751002D9F43 /* PBXContainerItemProxy */;
 		};
 		EA6CC7131D606751002D9F43 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EA6CC6EF1D606751002D9F43 /* videoConvert */;
+			target = EA6CC6EF1D606751002D9F43 /* VideoSplice */;
 			targetProxy = EA6CC7121D606751002D9F43 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -399,9 +427,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = videoConvert/Info.plist;
+				INFOPLIST_FILE = VideoSplice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.erpapa.videoConvert;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.erpapa.VideoSplice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -411,9 +439,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = videoConvert/Info.plist;
+				INFOPLIST_FILE = VideoSplice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.erpapa.videoConvert;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.erpapa.VideoSplice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -427,7 +455,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.erpapa.videoConvertTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/videoConvert.app/Contents/MacOS/videoConvert";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoSplice.app/Contents/MacOS/VideoSplice";
 			};
 			name = Debug;
 		};
@@ -440,7 +468,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.erpapa.videoConvertTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/videoConvert.app/Contents/MacOS/videoConvert";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoSplice.app/Contents/MacOS/VideoSplice";
 			};
 			name = Release;
 		};
@@ -473,7 +501,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EA6CC6EB1D606751002D9F43 /* Build configuration list for PBXProject "videoConvert" */ = {
+		EA6CC6EB1D606751002D9F43 /* Build configuration list for PBXProject "VideoSplice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA6CC7181D606751002D9F43 /* Debug */,
@@ -482,29 +510,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA6CC71A1D606751002D9F43 /* Build configuration list for PBXNativeTarget "videoConvert" */ = {
+		EA6CC71A1D606751002D9F43 /* Build configuration list for PBXNativeTarget "VideoSplice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA6CC71B1D606751002D9F43 /* Debug */,
 				EA6CC71C1D606751002D9F43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		EA6CC71D1D606751002D9F43 /* Build configuration list for PBXNativeTarget "videoConvertTests" */ = {
+		EA6CC71D1D606751002D9F43 /* Build configuration list for PBXNativeTarget "VideoSpliceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA6CC71E1D606751002D9F43 /* Debug */,
 				EA6CC71F1D606751002D9F43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		EA6CC7201D606751002D9F43 /* Build configuration list for PBXNativeTarget "videoConvertUITests" */ = {
+		EA6CC7201D606751002D9F43 /* Build configuration list for PBXNativeTarget "VideoSpliceUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA6CC7211D606751002D9F43 /* Debug */,
 				EA6CC7221D606751002D9F43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

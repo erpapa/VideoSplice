@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  videoConvert
+//  VideoSplice
 //
 //  Created by erpapa on 16/8/14.
 //  Copyright © 2016年 erpapa. All rights reserved.
