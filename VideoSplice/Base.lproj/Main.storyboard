@@ -676,7 +676,7 @@
         <!--视频转换-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController title="视频转换" storyboardIdentifier="HYVideoSpliceController" id="XfG-lQ-9wD" customClass="HYVideoSpliceController" sceneMemberID="viewController">
+                <viewController title="视频转换" storyboardIdentifier="VideoSpliceController" id="XfG-lQ-9wD" customClass="VideoSpliceController" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -698,7 +698,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="convert:" target="XfG-lQ-9wD" id="PXu-FK-bDp"/>
+                                    <action selector="convert:" target="XfG-lQ-9wD" id="m5w-JW-3YN"/>
                                 </connections>
                             </button>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iak-V9-jBR">
@@ -728,21 +728,6 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <segmentedControl verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n9k-ce-75a">
-                                <rect key="frame" x="113" y="257" width="224" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <segmentedCell key="cell" borderStyle="border" alignment="left" style="rounded" trackingMode="selectOne" id="JJK-59-ZGQ">
-                                    <font key="font" metaFont="system"/>
-                                    <segments>
-                                        <segment label="视频转换" selected="YES"/>
-                                        <segment label="视频拼接" tag="1"/>
-                                        <segment label="混合音频"/>
-                                    </segments>
-                                    <connections>
-                                        <action selector="segmentedClicked:" target="XfG-lQ-9wD" id="6FX-sZ-Soh"/>
-                                    </connections>
-                                </segmentedCell>
-                            </segmentedControl>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gn2-Kw-fRh">
                                 <rect key="frame" x="57" y="123" width="69" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -765,18 +750,33 @@
                                 <rect key="frame" x="59" y="89" width="333" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </progressIndicator>
+                            <segmentedControl verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n9k-ce-75a">
+                                <rect key="frame" x="105" y="257" width="240" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <segmentedCell key="cell" borderStyle="border" alignment="left" style="rounded" trackingMode="selectOne" id="JJK-59-ZGQ">
+                                    <font key="font" metaFont="system"/>
+                                    <segments>
+                                        <segment label="视频转换" selected="YES"/>
+                                        <segment label="视频拼接" tag="1"/>
+                                        <segment label="混合音频"/>
+                                    </segments>
+                                    <connections>
+                                        <action selector="segmentedClicked:" target="XfG-lQ-9wD" id="7Cu-Hw-Xmc"/>
+                                    </connections>
+                                </segmentedCell>
+                            </segmentedControl>
                         </subviews>
                     </view>
                     <connections>
-                        <outlet property="convertButton" destination="lhW-y0-ZTV" id="cYh-uW-xIe"/>
-                        <outlet property="firstField" destination="z9W-1c-rbt" id="hik-7g-OZV"/>
-                        <outlet property="firstLabel" destination="iak-V9-jBR" id="Bgo-w2-6Tg"/>
-                        <outlet property="progressIndicator" destination="wZ0-vg-6ux" id="HMv-Sa-fgv"/>
-                        <outlet property="secondField" destination="9jE-eI-Dd3" id="vfj-XB-u3b"/>
-                        <outlet property="secondLabel" destination="sXC-gz-pf9" id="xbD-vM-zGF"/>
-                        <outlet property="segmentedControl" destination="n9k-ce-75a" id="FyH-gv-fTE"/>
-                        <outlet property="thirdField" destination="aaA-a4-cql" id="4bL-OR-2tX"/>
-                        <outlet property="thirdLabel" destination="gn2-Kw-fRh" id="beU-Ix-ytd"/>
+                        <outlet property="convertButton" destination="lhW-y0-ZTV" id="9xC-dv-lHb"/>
+                        <outlet property="firstField" destination="z9W-1c-rbt" id="ap9-VW-G12"/>
+                        <outlet property="firstLabel" destination="iak-V9-jBR" id="QCD-1r-mnE"/>
+                        <outlet property="progressIndicator" destination="wZ0-vg-6ux" id="aus-9z-mSs"/>
+                        <outlet property="secondField" destination="9jE-eI-Dd3" id="whJ-ji-bw6"/>
+                        <outlet property="secondLabel" destination="sXC-gz-pf9" id="jYR-ma-7Xv"/>
+                        <outlet property="segmentedControl" destination="n9k-ce-75a" id="cnk-aQ-O32"/>
+                        <outlet property="thirdField" destination="aaA-a4-cql" id="MJu-sh-2O1"/>
+                        <outlet property="thirdLabel" destination="gn2-Kw-fRh" id="14e-ch-wqk"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
